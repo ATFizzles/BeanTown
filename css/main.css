@@ -1,7 +1,7 @@
 div {
 	border-color: green;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 0px;
 }
 
 body{
@@ -27,7 +27,6 @@ background-position:center;
 
 #header{
 	margin-left: 25%;
-	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
 	height: auto;
 	text-align: center;
@@ -58,5 +57,6 @@ li {
 }
 
 #pic{
-
+	padding-top: 5%;
+	margin-left: 30%;
 }
