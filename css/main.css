@@ -60,3 +60,12 @@ li {
 	padding-top: 5%;
 	margin-left: 30%;
 }
+
+#hometext{
+	text-align: center;
+}
+
+.col-xs-6{
+	padding-top: 5%;
+	margin-left: 25%;
+}
