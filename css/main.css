@@ -6,8 +6,8 @@ div {
 
 body{
 background-image:url('../images/steaming.jpg');
-background-repeat:no-repeat;
 background-position:center;
+background-attachment: fixed;
 }
 
 .container {
@@ -63,9 +63,32 @@ li {
 
 #hometext{
 	text-align: center;
+	padding-bottom: 5%;
 }
 
-.col-xs-6{
+.col-xs-8{
 	padding-top: 5%;
-	margin-left: 25%;
+	margin-left: 17%;
+}
+
+.img-contain {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.img {
+  position: relative;
+  @include translateX(-50%);
+  max-height: 200%;
+  padding-top: 5%;
+  margin-left: 10%;
+ 
+  @media (min-width: 800px) {    
+    left: 0; // set the left back to 0
+    max-height: none; // remove the max-height
+    max-width: 100%;
+    @include translateY(-50%);
+  }
 }
