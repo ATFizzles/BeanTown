@@ -21,7 +21,7 @@ html{
 	}
 }
 
-@media(max-width: 580px) {
+@media(max-width: 320px) {
 	html{
 		font-size: 10px;
 		line-height: 20px;
@@ -33,7 +33,11 @@ html{
 	}
 
 	#catering{
-		margin-left: 8%;
+		margin-left: 5%;
+	}
+	#cateringtext{
+		width: 100%;
+		margin-left: 0%;
 	}
 }
 
@@ -85,7 +89,7 @@ li {
 
 #pic{
 	padding-top: 5%;
-	margin-left: 30%;
+
 }
 
 #hometext{
@@ -131,4 +135,9 @@ li {
 	font-size: 5em;
 	text-align: center;
 	padding-top: 5%;
+}
+
+#cateringtext{
+	font-size: 1.5em;
+	text-align: center;
 }
