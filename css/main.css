@@ -27,7 +27,7 @@ html{
 		line-height: 20px;
 	}
 
-	#img{
+	#head{
 		
 	}
 
@@ -49,6 +49,14 @@ html{
 		margin-left: 0%;
 	}
 	#gifttext{
+		width: 100%;
+		margin-left: 0%;
+	}
+	#contact{
+		width: 100%;
+		margin-left: 0%;
+	}
+	#contacttext{
 		width: 100%;
 		margin-left: 0%;
 	}
@@ -162,6 +170,17 @@ li {
 }
 
 #gifttext{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#contact{
+	font-size: 5em;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#contacttext{
 	font-size: 1.5em;
 	text-align: center;
 }
