@@ -248,3 +248,10 @@ color: gray;
 	border-right: none;
 	border-color: white;
 }
+
+#mappic{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 400px;
+	width: 50%;
+}
