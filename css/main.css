@@ -206,3 +206,24 @@ li {
 	font-size: 1.5em;
 	text-align: center;
 }
+
+#navigation { 
+padding-top: 2%;
+margin-left: 12%; 
+margin-right:auto; 
+width:985px; 
+height:40px; 
+} 
+
+#navigation a { 
+text-decoration:none; 
+color: white; 
+padding:0px 10px; 
+font-family:Arial; 
+font-size:1em; 
+} 
+
+#navigation a:hover { 
+text-decoration: none; 
+color: gray; 
+} 
