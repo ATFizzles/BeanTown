@@ -32,6 +32,11 @@ html{
 		font-size: 1em;
 	}
 
+	#navigation{
+		width: 100%;
+
+	}
+
 	#hometext{
 		width: 100%;
 		margin-left: 0%;
@@ -227,3 +232,16 @@ font-size:1em;
 text-decoration: none; 
 color: gray; 
 } 
+
+#navigation{
+	margin-left: 0%;
+	padding-bottom: 6%;
+	width: 100%;
+	text-align: center;
+	border-width: 2px;
+	border-top: solid;
+	border-bottom: solid;
+	border-left: none;
+	border-right: none;
+	border-color: white;
+}
