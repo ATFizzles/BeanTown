@@ -29,7 +29,7 @@ html{
 
 	#head2{
 		width: 100%;
-		font-size: 2em;
+		font-size: 1em;
 	}
 
 	#hometext{
@@ -82,23 +82,21 @@ html{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-#headerrow{
-	background-color:;
-}
 
 #header{
 	margin-left: 25%;
-	color: white;
 	height: auto;
-	text-align: center;
+	
 }
 
 #head{
 	font-size: 5em;
+	text-align: center;
 }
 
 #head2{
 	font-size: 2em;
+	text-align: center;
 }
 
 li {
@@ -120,6 +118,10 @@ li {
 #pic{
 	padding-top: 5%;
 
+}
+
+#picc{
+	margin-left: 25%;
 }
 
 #hometext{
