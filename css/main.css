@@ -42,8 +42,8 @@ html{
 	}
 
 	#head2{
-		display: inline;
-		width: auto;
+		display: inline-block;
+		width: 100%;
 		height: auto;
 		text-align: center;
 	}
@@ -265,4 +265,9 @@ color: gray;
 	margin-bottom: 5%;
 	height: 400px;
 	width: 50%;
+}
+
+#menubutton{
+	margin-top: 5%;
+	margin-left: 44%;
 }
