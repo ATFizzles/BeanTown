@@ -23,14 +23,29 @@ html{
 
 @media(max-width: 320px) {
 	html{
-		font-size: 10px;
+		font-size: 9px;
 		line-height: 20px;
 	}
 
+	#header{
+		width: 50%;
+		margin-left: 0%;
+		font-size: 12px;
+	}
+
 	#head{
-		margin-left: auto;
-		margin-right: auto;
-		font-size: 1em;
+		font-size: 2em;
+		width: auto;
+		height: auto;
+		display: inline-block;
+
+	}
+
+	#head2{
+		display: inline;
+		width: auto;
+		height: auto;
+		text-align: center;
 	}
 
 	#navigation{
@@ -43,6 +58,10 @@ html{
 	#hometext{
 		width: 100%;
 		margin-left: 0%;
+	}
+
+	#menu{
+		margin-left: 20%;
 	}
 
 	#catering{
@@ -76,6 +95,9 @@ html{
 	#locationtext{
 		width: 100%;
 		margin-left: 0%;
+	}
+	#img{
+	
 	}
 }
 
@@ -151,18 +173,7 @@ li {
 }
 
 .img {
-  position: relative;
-  @include translateX(-50%);
-  max-height: 200%;
-  padding-top: 5%;
   margin-left: 10%;
- 
-  @media (min-width: 800px) {    
-    left: 0; // set the left back to 0
-    max-height: none; // remove the max-height
-    max-width: 100%;
-    @include translateY(-50%);
-  }
 }
 
 #menu{
