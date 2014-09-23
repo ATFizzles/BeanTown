@@ -96,8 +96,12 @@ html{
 		width: 100%;
 		margin-left: 0%;
 	}
-	#img{
-	
+	#menubutton{
+		margin-right: 0%;
+	}
+	#mappic{
+		width: 300px;
+		height: 200px;
 	}
 }
 
@@ -263,8 +267,6 @@ color: gray;
 #mappic{
 	margin-top: 5%;
 	margin-bottom: 5%;
-	height: 400px;
-	width: 50%;
 }
 
 #menubutton{
