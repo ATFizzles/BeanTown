@@ -26,14 +26,19 @@ html{
 		font-size: 9px;
 		line-height: 20px;
 	}
+	body {
+		margin: auto 0;
+		width: 100%;
+	}
 
 	#header{
-		width: 50%;
+		width: 100%;
 		margin-left: 0%;
 		font-size: 12px;
 	}
 
 	#head{
+		margin-left: 0%;
 		font-size: 2em;
 		width: auto;
 		height: auto;
@@ -42,6 +47,7 @@ html{
 	}
 
 	#head2{
+		margin-left: 0%;
 		display: inline-block;
 		width: 100%;
 		height: auto;
@@ -49,6 +55,7 @@ html{
 	}
 
 	#navigation{
+		margin-left: 0%;
 		width: 100%;
 		line-height: 2em;
 		height: 5em;
@@ -103,6 +110,12 @@ html{
 		width: 300px;
 		height: 200px;
 	}
+	#navigation{
+		width: 100%;
+	}
+	#navigation a{	
+		width: 100%;
+	}
 }
 
 .container {
@@ -118,7 +131,6 @@ html{
 
 
 #header{
-	margin-left: 25%;
 	height: auto;
 	
 }
@@ -256,12 +268,6 @@ color: gray;
 	padding-bottom: 6%;
 	width: 100%;
 	text-align: center;
-	border-width: 2px;
-	border-top: solid;
-	border-bottom: solid;
-	border-left: none;
-	border-right: none;
-	border-color: white;
 }
 
 #mappic{
@@ -271,5 +277,4 @@ color: gray;
 
 #menubutton{
 	margin-top: 5%;
-	margin-left: 44%;
 }
