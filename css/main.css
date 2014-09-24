@@ -27,9 +27,18 @@ html{
 		line-height: 20px;
 	}
 	body {
-		margin: auto 0;
+		margin: 0;
 		width: 100%;
 	}
+
+	div{
+		margin: 0;
+		padding: 0;
+	}
+
+	.container {
+	padding: 0;
+}
 
 	#header{
 		width: 100%;
@@ -59,7 +68,7 @@ html{
 		width: 100%;
 		line-height: 2em;
 		height: 5em;
-		margin-bottom: 60%;
+		margin-bottom: 8%;
 	}
 
 	#hometext{
@@ -188,10 +197,6 @@ li {
   overflow: hidden;
 }
 
-.img {
-  margin-left: 10%;
-}
-
 #menu{
 	font-size: 5em;
 	text-align: center;
@@ -245,7 +250,7 @@ li {
 #navigation { 
 padding-top: 2%;
 margin-left: 12%; 
-margin-right:auto; 
+margin-right: 0%; 
 width:985px; 
 height:40px; 
 } 
